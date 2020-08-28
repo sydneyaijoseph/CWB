@@ -1,48 +1,125 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <HTML>
     <HEAD>
+      <!-- HERstory is a business and online platform which will provide young
+      female entrepreneurs with a community of like-minded women along with the
+      resources they might need to get started in business. -->
         <TITLE> Welcome to HERstory </TITLE>
-        <!-- HERstory is a business and online platform which will provide young
-        female entrepreneurs with a community of like-minded women along with the
-        resources they might need to get started in business. -->
+
+        <!-- Links the CSS File -->
+        <link rel="stylesheet" href="CWB.css">
+
+        <!-- Makes heading image centred on page -->
+        <style>
+        .img-container {text-align: center;}
+        </style>
+
+        <!-- Makes section with Buttons centred on page -->
+        <style>
+        .Buttons {text-align: center;}
+        </style>
+
+        <!-- Makes ALL Heading 1, Paragraphs and Divides centered on page -->
+        <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        </style>
+
+        <script src="https://kit.fontawesome.com/ef8a7419f9.js" crossorigin="anonymous"></script>
+
+
     </HEAD>
 
+
+
           <BODY>
+                <!-- NAVIGATION BAR -->
+                <!-- Adds Navigation Bar at the top of page -->
+                <div class="topnav">
+                <a class="active" href="#welcome">Welcome</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#findus">Find Us</a>
+                <a href="#contact">Contact</a>
+                </div>
+                <!-- SECTION 1 -->
+                <!--Divides website into sections -->
+                <div class="bg-primary">
+                <!-- Adds space between elements -->
                 <br>
-                    <!-- Heading Image of Business Woman in Chair -->
-                    <img src="Powerful-Woman.png" style="width:200px;height:200px;">
-
-                    <!-- Introduction and Heading-->
-                    <h1> Welcome to HERstory </h1>
-
-                <br>
-
-                    <!-- Description of HERstory business-->
-                    <h3> HERstory a business and online platform which will provide young
-                    female entrepreneurs with a community of like-minded women along with the
-                    resources they might need to get started in business </h3>
-
-                <br>
-                    <!-- 3 side by side buttons which should take user to the related information-->
-                    <!-- Button 1: Need a Consultant?-->
-                    <button type="button" onclick="alert('Let's get you started with a Consultant!')">Need a Consultant?</button>
-
-                    <!-- Button 2: Discussion Forum-->
-                    <button type="button" onclick="alert('Discussion Forum')">Check out our Discussion Forum!</button>
-
-                    <!-- Button 3: Resource List-->
-                    <button type="button" onclick="alert('Resource List')">Grab some helpful resources?</button>
-
-                <br>
-                <br>
-
-                    <h1> ABOUT US </h1>
+                <!-- Makes the image its own section so I can apply edits. Edits made in HEAD to centre align the image. Made transparent in CSS -->
+                <div class="img-container">
+                <!-- Heading Image of Business Woman in Chair -->
+                <img src="Powerful-Woman.png" style="width:400px;height:400px;">
+                </div>
+                <!-- Makes a class called Container so I can apply CSS edits. Specifically to put the text over the image -->
+                <div class="container">
+                <!-- Make a class with the heading Centered -->
+                <div class="OverText"> <h1> Welcome to HERstory </h1> <h1> HERstory a business and online platform which will provide young
+                  female entrepreneurs with a community of like-minded women along with the
+                  resources they might need to get started in business! </h1></div>
+                </div>
 
                 <br>
+                <!-- Description of HERstory business
+                <h1> HERstory a business and online platform which will provide young
+                  female entrepreneurs with a community of like-minded women along with the
+                  resources they might need to get started in business! </h1>-->
+                <br>
+                </div>
 
-                    <p> Sydney has been involved in the field of entrepreneurs from the age of 17.
+                <!-- SECTION 2 -->
+                <!--Divides website into sections -->
+                <div class="bg-secondary">
+                <h1> SEE MORE STUFF </h1>
+                <div class="Buttons">
+                <!-- 3 side by side buttons which should take user to the related information-->
+                <!-- Button 1: Need a Consultant?-->
+                <button type="button" onclick="alert('Let's get you started with a Consultant!')">Need a Consultant?</button>
+                <!-- Button 2: Discussion Forum-->
+                <button type="button" onclick="alert('Discussion Forum')">Check out our Discussion Forum!</button>
+                <!-- Button 3: Resource List-->
+                <button type="button" onclick="alert('Resource List')">Grab some helpful resources?</button>
+                <br>
+                </div>
+                </div>
+
+                <!-- SECTION 3 -->
+                <!--Divides website into sections -->
+                <div class="bg-tertiary">
+                <h1> ABOUT US </h1>
+                <br>
+                <!-- Formats the text as a paragraph -->
+                <p> Sydney has been involved in the field of entrepreneurs from the age of 17.
                     She has a passion for creating change and supporting women, small business and entrepreneurs. </p>
+                </div>
+
+
+                <!-- SECTION 4 -->
+                <!--Divides website into sections -->
+                <div class="bg-quaternary">
+                <h1> FIND US </h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.2757235953163!2d151.2131080148459!3d-33.8567843806595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2stt!4v1598560029978!5m2!1sen!2stt" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+                <div class="SocialIcons">
+                <span style="font-size: 50px; color: #F95C98;">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter-square"></i>
+                </span>
+                </div>
 
           </BODY>
+
+<!-- QUESTIONS:
+1. How to add more space in between the links in the Navigation Bar?
+2. How to make the links in the Navigation Bar clickable and direct to the different headings on the page?
+3. How to change the fonts on the page?
+4. How to make the buttons bigger and have more space in between them?
+5. How to add a coloured bar behind alternating sections? For Example: Pink bar behind "See More Stuff" and "Find Us"
+6. How to make social icons clickable and redirect to the actual social media links?
+
+-->
 
 </HTML>
